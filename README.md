@@ -1,2 +1,2 @@
 # bootstrap
-my firsttry in Bootstrap
+my first try in Bootstrap
