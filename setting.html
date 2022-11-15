@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>bootstrap</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-dark navbar-expand-md header">
+        <div class="container-md container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="icons/computer.svg" alt="computer"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon bi"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" href="homework.html">Homework</a>
+              <a class="nav-link active" href="setting.html">Setting</a>
+            </div>
+          </div>
+          <div class="user-icon col col-1 d-none d-md-block"><img src="icons/user-icon.png" width="60px" height="60px" alt="#"></div>
+        </div>
+      </nav>
+      <div class="container-fluid">
+        <div class="row mt-2 mt-md-5">
+            <div class="col text-center fs-1">Settings</div>
+        </div>
+      </div>
+      <div class="container-fluid container-lg">
+            <div class="row mt-2 mt-md-5 bg-info d-none d-md-flex p-2 rounded-2">
+                <div class="col-2 text-center text-uppercase fs-4">avatar</div>
+                <div class="col-5 text-center text-uppercase fs-4">student's info</div>
+                <div class="col-5 text-center text-uppercase fs-4">Change password</div>
+            </div>
+        <div class="container-fluid container-lg">
+                <div class="row mt-2 p-0 justify-content-center">
+                    <div class="col-12 col-sm-8 col-md-2 mt-2 mt-md-0  text-center">
+                        <img src="icons/user-icon.png" width="auto" height="auto" alt="#">
+                        <button type="button" class="btn btn-secondary w-100">Change foto</button>
+                    </div>
+                    <div class="col-12 col-sm-8 col-md-5 mt-5 mt-md-0">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col d-block d-md-none bg-info mb-3 p-2 text-center text-uppercase">
+                                    Student's info
+                                </div>
+                            </div>
+                        </div>
+                        <form>
+                            <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="First name" id="exampleInputEmail1">
+                            </div>
+                            <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Last name" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Email" id="exampleInputEmail1">
+                            </div>
+                            <div class="mb-3">
+                                <input type="tel" class="form-control" placeholder="Phone number" id="exampleInputEmail1">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Address" id="exampleInputEmail1">
+                            </div>
+                            <div class="mb-3">
+                                <input type="url" class="form-control" placeholder="FB link" id="exampleInputEmail1">
+                            </div>
+                            <button class="btn btn-secondary w-100">Save changes</button>
+                        </form>
+                    </div>
+                    <div class="col-12 col-sm-8 col-md-5 mt-5 mt-md-0">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col d-block d-md-none bg-info mb-3 p-2 text-center text-uppercase">
+                                    Change password
+                                </div>
+                            </div>
+                        </div>
+                        <form action="#">
+                            <div class="mb-3">
+                                <input type="password" class="form-control" placeholder="Old password" id="exampleInputEmail1">
+                            </div>
+                            <div class="mb-3">
+                                <input type="password" class="form-control" placeholder="New password" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3">
+                                <input type="password" class="form-control" placeholder="Repeat password" id="exampleInputEmail1">
+                            </div>
+                            <button class="btn btn-secondary w-100">Change password</button>
+                        </form>
+                    </div>
+                </div>
+      </div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+</html>

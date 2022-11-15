@@ -2,6 +2,9 @@
     background-color: #2525b3;
 }
 
+ul{
+    padding: 0;
+}
 li a{
     text-decoration: none;
     color:  #c5c5fd;
@@ -45,4 +48,99 @@ li.active a{
 .card-overdue {
     background-color: #f85858;
     color: #fff;
+}
+.nav-link {
+    color: #c5c5fd;
+    font-size: 20px;
+}
+.active{
+    color:#f2f2ff !important;
+}
+.reward-item {
+    margin-bottom: 10px;
+}
+.reward-item:last-child{
+    margin-bottom: 0;
+}
+.item-inner {
+    flex: 1 0 33.33%;
+    text-align: center;
+}
+.reward-name{
+    padding: 6px;
+    position: relative;
+    border: 1px solid #000;
+    border-right: none;
+}
+.reward-name::after {
+    content: "";
+    border: 1px solid black;
+    border-bottom: none;
+    border-left: none;
+    position: absolute;
+    top: 4.5px;
+    right: -13px;
+    width: 26px;
+    height: 26px;
+    transform: rotate(45deg);
+}
+
+.reward-date {
+    padding: 6px;
+    position: relative;
+    border: 1px solid #000;
+    border-left: none;
+}
+.reward-date::before {
+    content: "";
+    border: 1px solid black;
+    border-top: none;
+    border-right: none;
+    position: absolute;
+    top: 4.5px;
+    left: -13px;
+    width: 26px;
+    height: 26px;
+    transform: rotate(45deg);
+}
+li.reward-item:nth-child(even){
+    flex-direction: row-reverse;
+}
+li.reward-item:nth-child(even) .reward-name::after{
+    content: none;
+}
+li.reward-item:nth-child(even) .reward-date::before{
+    content: none;
+}
+li.reward-item:nth-child(even) .reward-name::before{
+    content: "";
+    border: 1px solid black;
+    border-top: none;
+    border-right: none;
+    position: absolute;
+    top: 4.5px;
+    left: -13px;
+    width: 26px;
+    height: 26px;
+    transform: rotate(45deg);
+}
+li.reward-item:nth-child(even) .reward-date::after{
+    content: "";
+    border: 1px solid black;
+    border-bottom: none;
+    border-left: none;
+    position: absolute;
+    top: 4.5px;
+    right: -13px;
+    width: 26px;
+    height: 26px;
+    transform: rotate(45deg);
+}
+li.reward-item:nth-child(even) .reward-date{
+    border: 1px solid #000;
+    border-right: none;
+}
+li.reward-item:nth-child(even) .reward-name{
+    border: 1px solid #000;
+    border-left: none;
 }
